@@ -1,0 +1,19 @@
+.project__button-group input:hover{
+    color: #fff;
+
+}
+
+
+EMMET
+
+. --> criar uma classe
+# --> criar um ID
+> --> criar um filho (elemento)
+$ --> dados variaveis
+{} --> escrever um texto no elemento
+[] --> incluir atributos no elemento
++ --> criar outro elemento filho no mesmo nível 
+* --> criar varios elementos 
+() --> envelor os comandos do emment 
+
+
