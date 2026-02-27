@@ -9,13 +9,16 @@ function criarBotaoVoltar(){
     btnVoltar.style.marginTop = '20px'
 
     // lógica do click 
-    btnVoltar.addEventListener('click', function(){
+   function navegar () {
         window.location.href = '../index.html'
-    });
-       
-    // adicionar o botão no final do bady
-    document.body.appendChild(btnVoltar);
+   };
 
+   btnVoltar.addEventListener('click', navegar);
+
+
+//    btnVoltar.addEventListener('click', function())
+
+   document.body.appendChild(btnVoltar);
 
 };
 
